@@ -1,0 +1,68 @@
+#main-menu {
+  background-color: #Black;
+}
+
+#main-navbar{
+  background-color: #b07922;
+  overflow: hidden;
+}
+
+#navbar-container {
+  float: center;
+  width: 100%;
+  position: relative;
+}
+#main-navbar ul {
+  position: relative;
+  float: left;
+  list-style-type: none;
+  left: 50%;
+}
+
+#main-navbar ul li{
+  display: block;
+  float: left;
+  position: relative;
+   margin: 5px;
+  padding: 10px;
+  right: 50%;
+}
+
+#main-navbar ul li a {
+  padding: 20px 120px;
+  color: black;
+  display: block;
+  border: 6px solid;
+}
+
+#main-navbar ul li a:hover {
+  background-color: black;
+}
+
+ul,li {
+ text-align: center;
+ font-family: "Lato";
+}
+
+li{
+ text-align: center;
+ font-family:"Lato";
+list-style-type: none;
+padding: 10px;
+margin: 10px;
+}
+
+h1,h2,h3{
+  float: none;
+  background: black;
+  position: relative;
+  border: 7px solid;
+  border-color: #b07922;
+  text-align: center;
+  padding: 30px;
+  display: block;
+  margin: 0px;
+  padding: 5px;
+  text-align: center;
+  font-family: "lato";
+}
