@@ -32,10 +32,36 @@
   font-family: Arial, sans-serif;
 }
 
+nav a {
+  text-decoration: none;
+  color: white;
+   text-align: center;
+}
+
+nav ul {
+  list-style: none;
+   text-align: center;
+}
+
+nav li {
+  display: inline;
+  margin: 0 20px;
+   text-align: center;
+}
+
+
+section {
+  background-color: #b07922;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
 h1, h2 {
     font-size: 30px;
     color: #b07922;
     font-family: lato;
+    text-align: center;
 }
 
 p {
@@ -49,8 +75,13 @@ li, ul {
     color: white;
 }
 
-h3, h4{
+h3{
+    color: white;
+}
+
+h4{
     color: #b07922;
+    text-align: center;
 }
 body {
     background-color:black;
