@@ -1,97 +1,68 @@
 #main-menu {
-  background-color: black;
+  background-color: #Black;
+}
+
+#main-navbar{
+  background-color: #b07922;
   overflow: hidden;
-  border: 5px;
-  border-radius: 5px;
 }
 
-#menu-container {
-  position: relative;
+#navbar-container {
+  float: center;
   width: 100%;
+  position: relative;
+}
+#main-navbar ul {
+  position: relative;
   float: left;
-}
-
-p {
-  color: white
-}
-
-#main-menu ul {
   list-style-type: none;
-  padding: 0;
-  margin: 0;
-  position: relative;
   left: 50%;
-  float:left;
-  text-align: center;
 }
 
-#main-menu ul li {
+#main-navbar ul li{
   display: block;
-  position: relative;
-  right: 50%;
   float: left;
+  position: relative;
+   margin: 5px;
+  padding: 10px;
+  right: 50%;
 }
 
-#main-menu ul li a {
-  display: block;
-  padding: 15px 10px;
-  text-decoration: none;
-  color: white;
-}
-
-#main-menu ul li a:hover {
-  background-color: gray;
-}
-
-#main-menu ul li a:link {
+#main-navbar ul li a {
+  padding: 20px 120px;
   color: black;
-  text-decoration: none;
-  font-family: Arial, sans-serif;
-}
-
-body {
-  background-color: #DA9F0B;
-  font-family: "Times New Roman", Times, serif;
-}
-
-section {
-  background-color: #DA9F0B;
-  width: 800px;
   display: block;
-  margin: 20px auto;
-  padding: 20px;
-  border-radius: 5px;
+  border: 6px solid;
 }
 
-h1, h3 {
+#main-navbar ul li a:hover {
+  background-color: black;
+}
+
+ul,li {
+ text-align: center;
+ font-family: "Lato";
+}
+
+li{
+ text-align: center;
+ font-family:"Lato";
+list-style-type: none;
+padding: 10px;
+margin: 10px;
+}
+
+h1,h2,h3{
+  float: none;
+  background: black;
+  position: relative;
+  border: 7px solid;
+  border-color: #b07922;
   text-align: center;
-  text-decoration: underline;
-}
-
-.skyline {
-  margin-left: auto;
-  margin-right: auto;
+  padding: 30px;
   display: block;
-}
-
-.skyline-caption {
+  margin: 0px;
+  padding: 5px;
   text-align: center;
-}
-
-img {
-  width: 500px;
-  height: auto;
-  border: 5px;
-  border-radius: 10px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-iframe {
-  width: 560px;
-  height: 315px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  font-family: "lato";
 }
